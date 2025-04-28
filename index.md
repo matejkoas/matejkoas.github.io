@@ -3,11 +3,35 @@ layout: default
 title: Главная
 ---
 
-# Привет, это мой портфолио!
+<h2>Мои кейсы</h2>
 
-Добро пожаловать на мой сайт, где я публикую свои кейсы по Python, SQL и Power BI.
+<div class="case-grid">
 
-## Мои кейсы:
-- [Кейсы Python](/python)
-- [Кейсы SQL](/sql)
-- [Кейсы Power BI](/powerbi.md)
+  <div class="case-card">
+    <a href="/cases/bi_project1">
+      <img src="/assets/images/bi_project1.png" alt="BI Проект 1">
+      <h3>Аналитика продаж в Power BI</h3>
+    </a>
+    <p><strong>Стек:</strong> Power BI, DAX, SQL</p>
+    <p>Построение отчёта по продажам для маркетплейса: визуализация динамики продаж, выявление топ-товаров и категорий.</p>
+  </div>
+
+  <div class="case-card">
+    <a href="/cases/python_project1">
+      <img src="/assets/images/python_project1.png" alt="Python Проект 1">
+      <h3>Парсер отзывов на Python</h3>
+    </a>
+    <p><strong>Стек:</strong> Python, BeautifulSoup, Pandas</p>
+    <p>Сбор отзывов с сайтов, очистка текста и анализ частотности ключевых слов для выявления потребностей клиентов.</p>
+  </div>
+
+  <div class="case-card">
+    <a href="/cases/sql_project1">
+      <img src="/assets/images/sql_project1.png" alt="SQL Проект 1">
+      <h3>Оптимизация запросов в PostgreSQL</h3>
+    </a>
+    <p><strong>Стек:</strong> PostgreSQL, индексация, CTE</p>
+    <p>Оптимизация выборок в аналитической базе: сокращение времени выполнения сложных отчётных запросов на 40%.</p>
+  </div>
+
+</div>
