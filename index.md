@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Главная
 ---
 
 # Привет, это мой портфолио!
@@ -10,4 +10,4 @@ title: Home
 ## Мои кейсы:
 - [Кейсы Python](/python)
 - [Кейсы SQL](/sql)
-- [Кейсы Power BI](/powerbi)
+- [Кейсы Power BI](/powerbi.md)
