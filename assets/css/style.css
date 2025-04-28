@@ -56,4 +56,9 @@ body {
     font-size: 0.9rem;
     color: #555;
   }
+
+  .nav-link {
+    font-size: 1.2rem; /* Сделает шрифт крупнее */
+    margin: 0 1rem; /* Увеличит расстояние между ссылками */
+  }
   
