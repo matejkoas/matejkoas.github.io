@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #005fa3;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Портфолио Matejko</h1>
+  </header>
+
+  <nav>
+    <a href="/">Главная</a>
+    <a href="/python">Кейсы Python</a>
+    <a href="/sql">Кейсы SQL</a>
+    <a href="/powerbi">Кейсы Power BI</a>
+  </nav>
+
+  <main>
     {{ content }}
+  </main>
+
+  <footer>
+    &copy; 2025 Matejko
+  </footer>
 </body>
 </html>
