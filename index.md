@@ -17,6 +17,7 @@ title: Аналитика данных - сайт портфолио
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
+  text-decoration: none;
 }
 
 .case-card img {
@@ -33,6 +34,8 @@ title: Аналитика данных - сайт портфолио
   font-size: 0.9rem;
   color: #555;
 }
+
+
 </style>
 
 <h2>Мои кейсы</h2>
