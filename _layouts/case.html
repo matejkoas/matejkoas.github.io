@@ -2,31 +2,44 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }}</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
 
-  <header>
-    <nav>
-        <ul>
-          <li><a href="/porfolio">Главная</a></li>
-          <li><a href="/about">Обо мне</a></li>
-          <li><a href="/contacts">Контакты</a></li>
+  <header class="text-center bg-primary text-white py-3">
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #005fa3;">
+      <div class="container">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/porfolio/">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">Обо мне</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contacts">Контакты</a>
+          </li>
         </ul>
-      </nav>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <article>
-      <h1>{{ page.title }}</h1>
-      <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
+  <main class="container my-5">
+    <article class="bg-white p-4 rounded shadow-sm">
+      <h1 class="mb-3">{{ page.title }}</h1>
+      <p class="text-muted">{{ page.date | date: "%d.%m.%Y" }}</p>
       <div class="case-content">
         {{ content }}
       </div>
     </article>
   </main>
+
+  <footer class="text-center py-4 text-muted">
+    &copy; 2025 Matejko
+  </footer>
 
 </body>
 </html>

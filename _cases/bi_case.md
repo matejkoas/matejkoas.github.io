@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: case
 title: "Название кейса по Python"
 date: 2025-04-28
 categories: power bi
