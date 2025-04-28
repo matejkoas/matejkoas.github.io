@@ -40,7 +40,7 @@ title: Аналитика данных - сайт портфолио
 <div class="case-grid">
 
   <div class="case-card">
-    <a href="/cases/bi_case/index.md">
+    <a href="/cases/bi_case">
       <img src="assets/images/bi_img.png" alt="BI Проект 1">
       <h3>Аналитика Power BI. Анализ эффективности рекламы Яндекс.Директ </h3>
         <p><strong>Стек:</strong> Power BI, DAX, М, Python</p>
