@@ -2,7 +2,7 @@
 layout: case
 title: "Название кейса по Python"
 date: 2025-04-28
-categories: python
+categories: power bi
 ---
 
 # Название кейса
@@ -12,9 +12,10 @@ categories: python
 Это краткое описание кейса. Здесь вы можете указать основную цель проекта, что было сделано и как, какие проблемы решались.
 
 ### Стек технологий:
+- BI
 - Python
-- Pandas
-- Jupyter Notebooks
+- DAX
+- M
 
 ## Основная часть
 
