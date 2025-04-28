@@ -38,7 +38,6 @@ title: Аналитика данных - сайт портфолио
 
 </style>
 
-<h2>Мои кейсы</h2>
 
 <div class="case-grid">
   <div class="case-card">
