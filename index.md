@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Главная
+title: Аналитика данных - сайт портфолио
 ---
 
 <style>
@@ -40,7 +40,7 @@ title: Главная
 <div class="case-grid">
 
   <div class="case-card">
-    <a href="/cases/bi_project1">
+    <a href="/cases/bi_case.md">
       <img src="assets/images/bi_img.png" alt="BI Проект 1">
       <h3>Аналитика Power BI. Анализ эффективности рекламы Яндекс.Директ </h3>
         <p><strong>Стек:</strong> Power BI, DAX, М, Python</p>

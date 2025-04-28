@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="/">Главная</a>
+      <a href="/python">Кейсы Python</a>
+      <a href="/sql">Кейсы SQL</a>
+      <a href="/powerbi">Кейсы Power BI</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h1>{{ page.title }}</h1>
+      <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
+      <div class="case-content">
+        {{ content }}
+      </div>
+    </article>
+  </main>
+
+</body>
+</html>
