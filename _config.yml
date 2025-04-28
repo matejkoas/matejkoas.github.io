@@ -9,12 +9,19 @@ collections:
     output: true  # Включает обработку файлов в коллекции и их вывод на сайт
 
 # Параметры шаблонов
+# Указываем, какие шаблоны использовать для разных страниц
+# и коллекций. Например, для страниц в корне сайта и для кейсов.
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
+  - scope:
+      path: "cases/*"
+      type: "cases"
+    values:
+      layout: "case"  # Указываем шаблон для кейсов
 
 # Параметры для генерации страницы
 markdown: kramdown  # Использование kramdown для рендеринга Markdown
