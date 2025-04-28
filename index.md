@@ -42,9 +42,9 @@ title: Главная
   <div class="case-card">
     <a href="/cases/bi_project1">
       <img src="/assets/images/bi_project1.png" alt="BI Проект 1">
-      <h3>Аналитика продаж в Power BI</h3>
+      <h3>Аналитика Power BI. Анализ эффективности рекламы Яндекс.Директ </h3>
     </a>
-    <p><strong>Стек:</strong> Power BI, DAX, SQL</p>
+    <p><strong>Стек:</strong> Power BI, DAX, М, Python</p>
     <p>Построение отчёта по продажам для маркетплейса: визуализация динамики продаж, выявление топ-товаров и категорий.</p>
   </div>
 
