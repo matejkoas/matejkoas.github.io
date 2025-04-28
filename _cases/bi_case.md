@@ -29,7 +29,7 @@ categories: power bi
 
 1. Сегментация по условиям показа и типам площадок
   <div class="case-image">
-    <img src="{{ site.baseurl }}/assets/images/bi_typeplacements.png" alt="кейсы по Power BI" class="img-fluid">
+    <img src="{{ site.baseurl }}/assets/images/bi_typeplacements.png" alt="кейсы по Power BI" class="img-fluid w-50">
   </div>
 
   <div class="case-content">
@@ -43,19 +43,19 @@ categories: power bi
     </p>
     <strong>2. Оценка эффективности заголовков</strong> <br>
     <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/bi_headers.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/bi_headers.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
     <p>Были проанализированы заголовки по CPA (стоимость конверсии). Выявлены неэффективные заголовки, которые потребовали изменений, а также те, которые показали хорошую эффективность.
     </p>
     <strong>3. Анализ эффективности по регионам</strong>
     <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/bi_regions.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/bi_regions.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
     <p>Выявлены проблемы с динамикой заказов в Мурманске, что связано с падением расхода на рекламу. Рекомендация: провести дополнительные мероприятия для повышения эффективности в этом регионе.
     </p>
     <strong>4. Оценка эффективности по дням недели</strong>
     <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/bi_days.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/bi_days.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
     <p>Анализ показал, что в выходные дни конверсии стоят дороже, и их количество ниже. Рекомендация: снизить ставки на выходных и перераспределить бюджет на будние дни для оптимизации расходов.
     </p>
