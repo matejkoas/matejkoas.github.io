@@ -1,6 +1,6 @@
 ---
 layout: case
-title: "Аналитика Python. Комплексное исследование продаж в магазине спортивных товаров"
+title: "Аналитика Python. Комплексное исследование продаж в магазине спортивных товаров c кластеризацией и моделированием"
 date: 2023-02-20
 categories: python
 ---
@@ -8,6 +8,7 @@ categories: python
 #### Стек:
 - Jupyter Notebook
 - Python
+- Pandas
 - sklearn
 - scipy 
 

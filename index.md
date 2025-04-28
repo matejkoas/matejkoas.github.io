@@ -50,12 +50,12 @@ title: Аналитика данных - сайт портфолио
   </div>
 
   <div class="case-card">
-    <a href="/cases/python_project1">
-      <img src="/assets/images/python_project1.png" alt="Python Проект 1">
-      <h3>Парсер отзывов на Python</h3>
+    <a href="/porfolio/cases/sports-goods">
+      <img src="assets\images\sports_clustering3.png" alt="Python Проект 1">
+      <h3>Анализ продаж на python c кластеризацией и моделированием</h3>
     </a>
-    <p><strong>Стек:</strong> Python, BeautifulSoup, Pandas</p>
-    <p>Сбор отзывов с сайтов, очистка текста и анализ частотности ключевых слов для выявления потребностей клиентов.</p>
+    <p><strong>Стек:</strong> Python, Jupyter Notebook, Pandas, sklearn, scipy</p>
+    <p>Кластеризация данных с моделированием вероятности покупки. Очистка данных. Восстановление данных</p>
   </div>
 
   <div class="case-card">
