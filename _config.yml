@@ -1,3 +1,23 @@
 title: My Portfolio
 description: Мое портфолио на GitHub Pages
 theme: jekyll-theme-minimal
+
+# Настройки коллекций
+collections:
+  cases:
+    output: true  # Включает обработку файлов в коллекции и их вывод на сайт
+
+# Параметры шаблонов
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Параметры для генерации страницы
+markdown: kramdown  # Использование kramdown для рендеринга Markdown
+
+# Персонализированные переменные
+author: "Matejkoas"
+email: "matejkoas@gmail.com"
