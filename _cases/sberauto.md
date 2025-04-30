@@ -6,7 +6,6 @@ categories: [data-cleaning, web-analytics]
 tags: [pandas, python, marketing, portfolio, car-sales]
 description: >
   Очистка и структурирование веб-данных для анализа поведения пользователей на сайте автомобильного дилера. Подготовка признаков, извлечение модели авто, обработка пропусков и типизация.
-image: /assets/img/projects/car-data-cleaning.png
 ---
 
 <p>

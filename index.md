@@ -4,6 +4,7 @@ title: Аналитика данных - сайт портфолио
 ---
 
 <div class="case-grid">
+
   <div class="case-card">
     <a href="/portfolio/cases/bi_case">
       <img src="assets/images/bi_img.png" alt="BI Проект 1">
@@ -19,20 +20,19 @@ title: Аналитика данных - сайт портфолио
       <img src="assets/images/sports_clustering3.png" alt="Python Проект">
       <hr class="my-4" style="border: 1px solid #005FA3;">
       <h3>Анализ продаж на python c кластеризацией и моделированием</h3>
-    </a>
     <p><strong>Стек:</strong> Python, Jupyter Notebook, Pandas, sklearn, scipy</p>
     <p>Кластеризация данных с моделированием вероятности покупки. Очистка данных. Восстановление данных</p>
+    </a>
   </div>
 
-   <div class="case-card">
-    <a href="/portfolio/cases/sberauto">
-      <img src="assets/images/sber_title.png" alt="Python Проект">
-      <hr class="my-4" style="border: 1px solid #005FA3;">
-      <h3>Очистка и анализ данных данных веб сайта</h3>
-    </a>
-  
+  <div class="case-card">
+  <a href="/portfolio/cases/sberauto">
+    <img src="assets/images/sber_title.png" alt="Python Проект">
+    <hr class="my-4" style="border: 1px solid #005FA3;">
+    <h3>Очистка и анализ данных веб-сайта</h3>
     <p><strong>Стек:</strong> Python, Jupyter Notebook, Pandas, seaborn, matplotlib, scipy</p>
     <p>Работа с выгруженными данными из Google Analytics. Разведывательный анализ данных, заполнение пропусков, очистка. Анализ данных: проверка гипотез, ответы на вопросы продуктовой команды.</p>
+  </a>
   </div>
 
    <div class="case-card">
@@ -40,10 +40,19 @@ title: Аналитика данных - сайт портфолио
       <img src="assets/images/sql_title.png" alt="sql кейс">
       <hr class="my-4" style="border: 1px solid #005FA3;">
       <h3>SQL-кейс: Анализ эффективности маркетинговых каналов</h3>
-    </a>
     <p><strong>Стек:</strong> SQL</p>
     <p>Базовые запросы SQL по анализу эффективности источников трафика.</p>
+    </a>
   </div>
-  
+
+  <div class="case-card">
+    <a href="/portfolio/cases/python_reviews">
+      <img src="assets/images/python_reviews_title.png" alt="sql кейс">
+      <hr class="my-4" style="border: 1px solid #005FA3;">
+      <h3>SQL-кейс: Анализ эффективности маркетинговых каналов</h3>
+    <p><strong>Стек:</strong> SQL</p>
+    <p>Базовые запросы SQL по анализу эффективности источников трафика.</p>
+    </a>
+  </div>
 
 </div>
