@@ -20,18 +20,7 @@
     {{ content }}
   </main>
 
-  <footer>
-    &copy; 2025 Aleksandr Mateiko
-  </footer>
-  <a href="#" class="btn btn-primary btn-lg rounded-circle back-to-top" role="button" aria-label="Наверх">
-    ↑
-  </a>
-  <script>
-    const btn = document.querySelector('.back-to-top');
-    window.addEventListener('scroll', () => {
-      btn.style.display = (window.scrollY > 300) ? 'block' : 'none';
-    });
-  </script>
+  {% include footer.html %}
   
 </body>
 </html>
