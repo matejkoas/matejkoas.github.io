@@ -15,7 +15,7 @@ title: Аналитика данных - сайт портфолио
 
   <div class="case-card">
     <a href="/portfolio/cases/sports-goods">
-      <img src="assets/images/sports_clustering3.png" alt="Python Проект 1">
+      <img src="assets/images/sports_clustering3.png" alt="Python Проект">
       <h3>Анализ продаж на python c кластеризацией и моделированием</h3>
     </a>
     <p><strong>Стек:</strong> Python, Jupyter Notebook, Pandas, sklearn, scipy</p>
@@ -24,11 +24,21 @@ title: Аналитика данных - сайт портфолио
 
    <div class="case-card">
     <a href="/portfolio/cases/sberauto">
-      <img src="assets/images/sber_title.png" alt="Python Проект 1">
+      <img src="assets/images/sber_title.png" alt="Python Проект">
       <h3>Очистка и анализ данных данных веб сайта</h3>
     </a>
     <p><strong>Стек:</strong> Python, Jupyter Notebook, Pandas, seaborn, matplotlib, scipy</p>
     <p>Работа с выгруженными данными из Google Analytics. Разведывательный анализ данных, заполнение пропусков, очистка. Анализ данных: проверка гипотез, ответы на вопросы продуктовой команды.</p>
   </div>
+
+   <div class="case-card">
+    <a href="/portfolio/cases/sql_marketing">
+      <img src="assets/images/sql_title.png" alt="sql кейс">
+      <h3>Очистка и анализ данных данных веб сайта</h3>
+    </a>
+    <p><strong>Стек:</strong> SQL</p>
+    <p>Базовые запросы SQL по анализу эффективности источников трафика.</p>
+  </div>
+  
 
 </div>
