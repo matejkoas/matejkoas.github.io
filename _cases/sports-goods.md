@@ -89,41 +89,41 @@ categories: python
 <p>Решение было сложным многоступенчатым с применением моделей машинного обучения на разных этапах обработки.</p><br>
 <p><strong>2. Создание дополнительных "фичей"</strong></p>
 <div class="case-image">
-    <img src="{{ site.baseurl }}/assets/images/sports_create_features.png" alt="кейс по python" class="img-fluid">
+    <img src="{{ site.baseurl }}/assets/images/sports_create_features.png" alt="кейс по python" class="img-fluid w-50">
   </div>
 <br>
 <p>Создание дополнительных признаков на основе информации о продуктах, что способствовало более эффективному анализу, кластеризации и моделированию. Уникальность данных признаков ограничивается всего 16 значениями, что упрощает последующие этапы анализа.</p><br>
 <p><strong>3. Бинарная классификация</strong></p>
 <div class="case-image">
-    <img src="{{ site.baseurl }}/assets/images/sports_binary.png" alt="кейс по python" class="img-fluid">
+    <img src="{{ site.baseurl }}/assets/images/sports_binary.png" alt="кейс по python" class="img-fluid w-50">
   </div>
 <br>
 <p>Восстановление утраченных данных осуществлено с использованием модели после объединения всех таблиц в общую витрину данных. Этот шаг существенно улучшил качество данных для более точной бинарной классификации.</p><br>
 <div class="case-image">
-    <img src="{{ site.baseurl }}/assets/images/sports-accuracy.png" alt="кейс по python" class="img-fluid">
+    <img src="{{ site.baseurl }}/assets/images/sports-accuracy.png" alt="кейс по python" class="img-fluid w-50">
   </div>
 <p>Точность восстановления утерянных данных получилась практически 100%. Судить о переобученности модели здесь не приходится. Не тот случай.</p>
 <p><strong>4. Анализ результатов АБ-теста</strong></p>
 <div class="case-image">
-    <img src="{{ site.baseurl }}/assets/images/sports_abtest.png" alt="кейс по python" class="img-fluid">
+    <img src="{{ site.baseurl }}/assets/images/sports_abtest.png" alt="кейс по python" class="img-fluid w-50">
   </div>
 <br>
 <p>Результаты АБ-тестирования показали, что маркетинговая кампания явилась эффективной и ее необходимо применять дальше для увеличения прибыли для бизнеса.</p>
 <br>
 <p><strong>5. Кластеризация</strong></p>
 <div class="case-image">
-    <img src="{{ site.baseurl }}/assets/images/sports_clustering1.png" alt="кейс по python" class="img-fluid">
+    <img src="{{ site.baseurl }}/assets/images/sports_clustering1.png" alt="кейс по python" class="img-fluid w-50">
   </div>
 <br>
 <p>В процессе подготовки к кластеризации были созданы дополнительные фичи, чтобы исследовать аудиторию с как можно большего числа сторон.</p><br>
 
 <div class="case-image">
-    <img src="{{ site.baseurl }}/assets/images/sports_clustering2.png" alt="кейс по python" class="img-fluid">
+    <img src="{{ site.baseurl }}/assets/images/sports_clustering2.png" alt="кейс по python" class="img-fluid w-50">
   </div>
 <p>Определено число кластеров с методом локтя с помощью модели K.means.</p>
 <p><strong>5. Визуализация кластеров с помощью t-SNE.</strong></p><br>
 <div class="case-image">
-    <img src="{{ site.baseurl }}/assets/images/sports_clustering3.png" alt="кейс по python" class="img-fluid">
+    <img src="{{ site.baseurl }}/assets/images/sports_clustering3.png" alt="кейс по python" class="img-fluid w-50">
   </div>
 <br>
 <p>Диаграмма визуализации показывает, что кластеры обладают характеристиками, которые значительно отличают их друг от друга. Это видно по сгрупиированности кластеров в кучки. Тем не менее, между кластерами есть и общие черты - это видно поскольку некоторые сегменты одних и тех же кластеров разделены. <br>
@@ -131,7 +131,7 @@ categories: python
 <br>
 <p><strong>6. Описание кластеров</strong></p><br>
 <div class="case-image">
-    <img src="{{ site.baseurl }}/assets/images/sports_clustering4.png" alt="кейс по python" class="img-fluid">
+    <img src="{{ site.baseurl }}/assets/images/sports_clustering4.png" alt="кейс по python" class="img-fluid w-50">
   </div>
 <br>
 <p>
@@ -149,7 +149,7 @@ categories: python
 <p>1. Создание матрицы взаимодействий между клиентами и товарами, где строки представляют клиентов, а столбцы - товары. Значения в ячейках указывают на факт покупки товара клиентом (1 - купил, 0 - не купил).</p><br>
 <p>Для того, чтобы матрица была сбалансирована и в ее строках и столбцах не было бы слишком много уникальных значений, были подобраны специально созданные заранее фичи. В итоговую модель были загружены 4 признака, характеризующих товар и 4 признака, характеризующих клиента</p>
 <div class="case-image">
-  <img src="{{ site.baseurl }}/assets/images/sports_modeling_features.png" alt="кейс по python" class="img-fluid">
+  <img src="{{ site.baseurl }}/assets/images/sports_modeling_features.png" alt="кейс по python" class="img-fluid w-50">
 </div>
 <br>
 
@@ -159,12 +159,12 @@ categories: python
 
 <p>Матрица взаимодействий, в обработанном виде представляла из себя пересечения всех возможных вариантов свойств товаров и свойств клиентов:</p>
 <div class="case-image">
-  <img src="{{ site.baseurl }}/assets/images/sports_matrix.png" alt="кейс по python" class="img-fluid">
+  <img src="{{ site.baseurl }}/assets/images/sports_matrix.png" alt="кейс по python" class="img-fluid w-50">
 </div>
 
 <p>В результате после тестирования модели получился результат, который отобразила матрица ошибок:</p>
 <div class="case-image">
-  <img src="{{ site.baseurl }}/assets/images/sports_confusion_matrix.png" alt="кейс по python" class="img-fluid">
+  <img src="{{ site.baseurl }}/assets/images/sports_confusion_matrix.png" alt="кейс по python" class="img-fluid w-50">
 </div>
 
 Интерпретация результатов модели
