@@ -48,8 +48,7 @@ nav a.nav-link:hover {
 .case-card img {
   max-width: 100%;
   border-radius: 8px;
-  object-fit: cover;
-  height: 300px; /* Высота изображения */
+  height: auto;
 }
 
 .case-card h3 {
