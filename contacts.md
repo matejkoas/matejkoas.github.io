@@ -15,10 +15,10 @@ title: Контакты
           <strong>Email:</strong> <a href="mailto:matejko.as@gmail.com">matejko.as@gmail.com</a>
         </li>
         <li class="list-group-item">
-          <strong>Телефон:</strong> <a href="tel:+381668094881">+381 66 809 4881</a>
+          <strong>Телефон/Whatsapp:</strong> <a href="tel:+381668094881">+381 66 809 4881</a>
         </li>
         <li class="list-group-item">
-          <strong>GitHub:</strong> <a href="https://github.com/matejkoas" target="_blank">github.com/matejkoas</a>
+          <strong>Telegram:</strong> <a href="https://t.me/a_mateiko" target="_blank">@a_mateiko</a>
         </li>
         <li class="list-group-item">
           <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>

@@ -18,7 +18,7 @@ title: Обо мне
       <p>Люблю докапываться до сути, визуализировать данные и превращать хаос в понятные отчёты. Постоянно учусь и двигаюсь дальше — интересуюсь ML-инженерией и архитектурой решений.</p>
 
       <p class="mt-4">
-        <a href="https://github.com/matejkoas" class="btn btn-primary" target="_blank">Посмотреть проекты на GitHub</a>
+        <a href="https://matejkoas.github.io/porfolio/" class="btn btn-primary">Назад на главную</a>
       </p>
 
     </div>
