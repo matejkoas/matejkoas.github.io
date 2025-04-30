@@ -131,7 +131,7 @@ categories: python
 <br>
 <p><strong>6. Описание кластеров</strong></p><br>
 <div class="case-image">
-    <img src="{{ site.baseurl }}/assets/images/sports_clustering4.png" alt="кейс по python" class="img-fluid w-50">
+    <img src="{{ site.baseurl }}/assets/images/sports_clustering4.png" alt="кейс по python" class="img-fluid">
   </div>
 <br>
 <p>
