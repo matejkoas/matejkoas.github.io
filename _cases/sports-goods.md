@@ -18,7 +18,12 @@ categories: python
 <br>
 <p>Построена модель для предикта вероятности покупки к каждому </p>
 
-<p>Полное подробное исследование с кодом и всеми пояснениями в репозитории github: <a href="https://github.com/matejkoas/sports_goods_shop/blob/master/sports_goods_shop.ipynb"><strong>Здесь</strong></a></p>
+<p>
+  Полное подробное исследование с кодом и всеми пояснениями в репозитории GitHub:  
+  <a href="https://github.com/matejkoas/sports_goods_shop/blob/master/sports_goods_shop.ipynb" class="btn btn-primary" target="_blank">
+    Смотреть на GitHub
+  </a>
+</p>
 
 
 ## Описание задачи:
