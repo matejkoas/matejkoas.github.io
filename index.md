@@ -27,6 +27,7 @@ title: Аналитика данных - сайт портфолио
       <img src="assets/images/sber_title.png" alt="Python Проект">
       <h3>Очистка и анализ данных данных веб сайта</h3>
     </a>
+  
     <p><strong>Стек:</strong> Python, Jupyter Notebook, Pandas, seaborn, matplotlib, scipy</p>
     <p>Работа с выгруженными данными из Google Analytics. Разведывательный анализ данных, заполнение пропусков, очистка. Анализ данных: проверка гипотез, ответы на вопросы продуктовой команды.</p>
   </div>
