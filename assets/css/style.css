@@ -103,3 +103,17 @@ pre {
 code {
   font-family: "Courier New", Courier, monospace;
 }
+
+.btn-primary {
+  background-color: #005FA3;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
