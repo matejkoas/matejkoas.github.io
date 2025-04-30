@@ -5,7 +5,7 @@ title: Аналитика данных - сайт портфолио
 
 <div class="case-grid">
   <div class="case-card">
-    <a href="/porfolio/cases/bi_case">
+    <a href="/portfolio/cases/bi_case">
       <img src="assets/images/bi_img.png" alt="BI Проект 1">
       <h3>Аналитика Power BI. Анализ эффективности рекламы Яндекс.Директ </h3>
       <p><strong>Стек:</strong> Power BI, DAX, М, Python</p>
@@ -14,7 +14,7 @@ title: Аналитика данных - сайт портфолио
   </div>
 
   <div class="case-card">
-    <a href="/porfolio/cases/sports-goods">
+    <a href="/portfolio/cases/sports-goods">
       <img src="assets\images\sports_clustering3.png" alt="Python Проект 1">
       <h3>Анализ продаж на python c кластеризацией и моделированием</h3>
     </a>
