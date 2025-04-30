@@ -15,12 +15,20 @@ title: Аналитика данных - сайт портфолио
 
   <div class="case-card">
     <a href="/portfolio/cases/sports-goods">
-      <img src="assets\images\sports_clustering3.png" alt="Python Проект 1">
+      <img src="assets/images/sports_clustering3.png" alt="Python Проект 1">
       <h3>Анализ продаж на python c кластеризацией и моделированием</h3>
     </a>
     <p><strong>Стек:</strong> Python, Jupyter Notebook, Pandas, sklearn, scipy</p>
     <p>Кластеризация данных с моделированием вероятности покупки. Очистка данных. Восстановление данных</p>
   </div>
 
+   <div class="case-card">
+    <a href="/portfolio/cases/sberauto">
+      <img src="assets/images/sber_title.png" alt="Python Проект 1">
+      <h3>Очистка и анализ данных данных веб сайта</h3>
+    </a>
+    <p><strong>Стек:</strong> Python, Jupyter Notebook, Pandas, seaborn, matplotlib, scipy</p>
+    <p>Кластеризация данных с моделированием вероятности покупки. Очистка данных. Восстановление данных</p>
+  </div>
 
 </div>
