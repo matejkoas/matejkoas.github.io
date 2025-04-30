@@ -3,42 +3,6 @@ layout: default
 title: Аналитика данных - сайт портфолио
 ---
 
-<style>
-    .case-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.case-card {
-  background: white;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  text-align: center;
-  text-decoration: none;
-}
-
-.case-card img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.case-card h3 {
-  margin-top: 1rem;
-}
-
-.case-card p {
-  font-size: 0.9rem;
-  color: #555;
-}
-
-
-</style>
-
-
 <div class="case-grid">
   <div class="case-card">
     <a href="/porfolio/cases/bi_case">
