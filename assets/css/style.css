@@ -87,3 +87,19 @@ nav a.nav-link:hover {
     line-height: 36px;
   }
 }
+
+.img-container {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+}
