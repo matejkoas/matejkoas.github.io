@@ -49,9 +49,9 @@ title: Аналитика данных - сайт портфолио
     <a href="/portfolio/cases/python_reviews">
       <img src="assets/images/python_reviews_title.png" alt="sql кейс">
       <hr class="my-4" style="border: 1px solid #005FA3;">
-      <h3>SQL-кейс: Анализ эффективности маркетинговых каналов</h3>
-    <p><strong>Стек:</strong> SQL</p>
-    <p>Базовые запросы SQL по анализу эффективности источников трафика.</p>
+      <h3>Влияние количества отзывов на рост продаж в маркетплейсе Wildberries</h3>
+    <p><strong>Стек:</strong> python, matplotlib, seaborn, Google Colab</p>
+    <p>Исследование по выявлению стратегии конкурентов в наборе отзывов при развитии товаров.</p>
     </a>
   </div>
 
