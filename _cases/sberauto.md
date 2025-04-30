@@ -9,6 +9,13 @@ description: >
 image: /assets/img/projects/car-data-cleaning.png
 ---
 
+<p>
+  <strong> Полная версия блокнота с кодом в репозитории GitHub для уточнения технических деталей:</strong><br>  
+  <a href="https://github.com/matejkoas/sberauto/blob/master/sberauto_work.ipynb" class="btn btn-primary" target="_blank">
+    Смотреть на GitHub
+  </a>
+</p>
+
 ## Контекст
 
 У клиента — крупного автомобильного портала — стояла задача: разобраться в поведении пользователей на сайте и понять, какие модели авто их интересуют. Имеющиеся данные о сессиях и событиях были "сырыми" и требовали глубокой предобработки.
