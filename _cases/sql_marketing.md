@@ -30,8 +30,10 @@ excerpt: "Кейс демонстрирует владение SQL на прим
 
 ## 🛠 Примеры SQL-запросов
 
-```sql
--- Конверсия по источникам трафика
+<div class="container my-5">
+  <div class="mb-5">
+    <h5 class="text-primary">📊 Конверсия по источникам трафика</h5>
+    <pre class="bg-light p-3 rounded"><code class="language-sql">
 SELECT 
   s.utm_source,
   COUNT(DISTINCT s.session_id) AS total_sessions,
@@ -41,8 +43,12 @@ FROM sessions s
 LEFT JOIN conversions c ON s.session_id = c.session_id
 GROUP BY s.utm_source
 ORDER BY conversion_rate DESC;
+    </code></pre>
+  </div>
 
--- CR по устройствам
+  <div class="mb-5">
+    <h5 class="text-primary">💻 CR по устройствам</h5>
+    <pre class="bg-light p-3 rounded"><code class="language-sql">
 SELECT 
   s.device,
   COUNT(DISTINCT s.session_id) AS total_sessions,
@@ -52,8 +58,12 @@ FROM sessions s
 LEFT JOIN conversions c ON s.session_id = c.session_id
 GROUP BY s.device
 ORDER BY cr DESC;
+    </code></pre>
+  </div>
 
--- Общая выручка по каналам
+  <div class="mb-5">
+    <h5 class="text-primary">💰 Общая выручка по каналам</h5>
+    <pre class="bg-light p-3 rounded"><code class="language-sql">
 SELECT 
   s.utm_source,
   SUM(c.revenue) AS total_revenue
@@ -61,6 +71,23 @@ FROM sessions s
 JOIN conversions c ON s.session_id = c.session_id
 GROUP BY s.utm_source
 ORDER BY total_revenue DESC;
+    </code></pre>
+  </div>
+
+  <div class="mt-5">
+    <h4>📌 Выводы</h4>
+    <ul>
+      <li>SQL-запросы позволяют быстро оценить эффективность каналов и выявить точки роста.</li>
+      <li>Группировки и агрегаты заменяют полноценные BI-системы в простых задачах.</li>
+      <li>Результаты легко интегрировать в отчётность или использовать для A/B-тестирования.</li>
+    </ul>
+  </div>
+
+  <div class="text-center mt-4">
+    <img src="{{ site.baseurl }}/assets/images/sql_traffic_analysis.png" alt="SQL-анализ трафика" class="img-fluid w-50 rounded shadow">
+  </div>
+</div>
+
 
 ## Выводы
 SQL-запросы позволяют быстро оценить эффективность каналов и выявить точки роста.

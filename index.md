@@ -34,7 +34,7 @@ title: Аналитика данных - сайт портфолио
    <div class="case-card">
     <a href="/portfolio/cases/sql_marketing">
       <img src="assets/images/sql_title.png" alt="sql кейс">
-      <h3>Очистка и анализ данных данных веб сайта</h3>
+      <h3>SQL-кейс: Анализ эффективности маркетинговых каналов</h3>
     </a>
     <p><strong>Стек:</strong> SQL</p>
     <p>Базовые запросы SQL по анализу эффективности источников трафика.</p>
