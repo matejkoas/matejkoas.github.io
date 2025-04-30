@@ -83,15 +83,4 @@ ORDER BY total_revenue DESC;
     </ul>
   </div>
 
-  <div class="text-center mt-4">
-    <img src="{{ site.baseurl }}/assets/images/sql_traffic_analysis.png" alt="SQL-анализ трафика" class="img-fluid w-50 rounded shadow">
-  </div>
 </div>
-
-
-## Выводы
-SQL-запросы позволяют быстро оценить эффективность каналов и выявить точки роста.
-
-Использование оконных функций и группировок помогает строить метрики без дополнительных инструментов BI.
-
-Такой подход удобен для автоматизации отчетов и A/B-тестов.
