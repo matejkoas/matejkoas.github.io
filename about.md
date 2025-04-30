@@ -5,9 +5,14 @@ title: Обо мне
 
 <div class="container mt-4">
   <div class="row justify-content-center">
-    <div class="col-lg-8">
+    <div class="col-lg-8 text-center">
 
       <h2 class="mb-4">Обо мне</h2>
+
+      <!-- Деловая фотография -->
+      <div class="mb-4">
+        <img src="{{ site.baseurl }}/assets/images/my-photo.jpg" alt="Александр" class="img-fluid rounded-circle" style="max-width: 200px; border: 5px solid #005FA3;">
+      </div>
 
       <p>Привет! Меня зовут Александр. Уже больше 7 лет я занимаюсь аналитикой и цифровым маркетингом — помогаю бизнесу разбираться в данных, находить точки роста и принимать решения на основе цифр, а не на интуиции. Работал с Python, SQL, Power BI, DAX, ML-моделями и маркетинговыми инструментами — от рекламных кабинетов до аналитики в BI.</p>
 
