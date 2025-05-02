@@ -35,3 +35,9 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css: style
+    guess_lang: false
+syntax_highlighter_opts:
+    default_lang: python
+    guess_lang: false
