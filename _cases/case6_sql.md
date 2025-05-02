@@ -33,7 +33,7 @@ tags: [SQL, Power BI, аналитика, e-commerce, кейс]
 ER-диаграмма создана в DBeaver (см. скрин ниже).
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}assets\images\case6_diagramm.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_diagramm.png" alt="кейсы по SQL" class="img-fluid">
     </div>
 
 ---
@@ -53,14 +53,14 @@ ER-диаграмма создана в DBeaver (см. скрин ниже).
 SELECT COUNT(*) AS total_leads FROM leads_qualified;
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}assets\images\case6_step1.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step1.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 
 -- Квалифицированные лиды
 SELECT COUNT(DISTINCT mql_id) AS qualified_leads FROM leads_closed WHERE won_date IS NOT NULL;
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}assets\images\case6_step2.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step2.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 
 -- Сделавшие заказы
@@ -71,7 +71,7 @@ JOIN orders o ON oi.order_id = o.order_id
 WHERE lc.won_date IS NOT NULL;
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}assets\images\case6_step3.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step3.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 
 -- Оплата заказов
@@ -82,8 +82,8 @@ JOIN orders o ON oi.order_id = o.order_id
 JOIN order_payments op ON o.order_id = op.order_id
 WHERE lc.won_date IS NOT NULL;
 
-   <div class="case-image">
-      <img src="{{ site.baseurl }}assets\images\case6_step4.png" alt="кейсы по Power BI" class="img-fluid">
+    <div class="case-image">
+      <img src="{{ site.baseurl }}/assets/images/case6_step4.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 
 ### 2. Клиентская аналитика
