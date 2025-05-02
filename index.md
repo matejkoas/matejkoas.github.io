@@ -7,7 +7,7 @@ description: Портфолио аналитика данных. Проекты 
 <div class="case-grid">
 
   <div class="case-card">
-    <a href="/portfolio/cases/bi_case">
+    <a href="/cases/bi_case">
       <img src="assets/images/bi_img.png" alt="BI Проект 1">
       <hr class="my-4" style="border: 1px solid #005FA3;">
       <h3>Аналитика Power BI. Анализ эффективности рекламы Яндекс.Директ </h3>
@@ -17,7 +17,7 @@ description: Портфолио аналитика данных. Проекты 
   </div>
 
   <div class="case-card">
-    <a href="/portfolio/cases/case6_sql">
+    <a href="/cases/case6_sql">
       <img src="assets\images\case6_title.png" alt="sql кейс">
       <hr class="my-4" style="border: 1px solid #005FA3;">
       <h3>E-commerce SQL Исследование: Поведение клиентов и анализ продаж</h3>
@@ -27,7 +27,7 @@ description: Портфолио аналитика данных. Проекты 
   </div>
 
   <div class="case-card">
-    <a href="/portfolio/cases/sports-goods">
+    <a href="/cases/sports-goods">
       <img src="assets/images/sports_clustering3.png" alt="Python Проект">
       <hr class="my-4" style="border: 1px solid #005FA3;">
       <h3>Анализ продаж на python c кластеризацией и моделированием</h3>
@@ -37,7 +37,7 @@ description: Портфолио аналитика данных. Проекты 
   </div>
 
   <div class="case-card">
-  <a href="/portfolio/cases/sberauto">
+  <a href="/cases/sberauto">
     <img src="assets/images/sber_title.png" alt="Python Проект">
     <hr class="my-4" style="border: 1px solid #005FA3;">
     <h3>Очистка и анализ данных веб-сайта</h3>
@@ -47,7 +47,7 @@ description: Портфолио аналитика данных. Проекты 
   </div>
 
    <div class="case-card">
-    <a href="/portfolio/cases/sql_marketing">
+    <a href="/cases/sql_marketing">
       <img src="assets/images/sql_title.png" alt="sql кейс">
       <hr class="my-4" style="border: 1px solid #005FA3;">
       <h3>SQL-кейс: Анализ эффективности маркетинговых каналов</h3>
@@ -57,7 +57,7 @@ description: Портфолио аналитика данных. Проекты 
   </div>
 
   <div class="case-card">
-    <a href="/portfolio/cases/python_reviews">
+    <a href="/cases/python_reviews">
       <img src="assets/images/python_reviews_title.png" alt="sql кейс">
       <hr class="my-4" style="border: 1px solid #005FA3;">
       <h3>Влияние количества отзывов на рост продаж в маркетплейсе Wildberries</h3>
