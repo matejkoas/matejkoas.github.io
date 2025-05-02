@@ -49,7 +49,7 @@ ER-диаграмма создана в DBeaver:
 → оплата
 <br>
 
--- Всего лидов  
+-- Всего лидов:  
 ```sql
 SELECT COUNT(*) AS total_leads FROM leads_qualified;
 ```
@@ -59,7 +59,7 @@ SELECT COUNT(*) AS total_leads FROM leads_qualified;
     </div>
 
 <br>
--- Квалифицированные лиды 
+-- Квалифицированные лиды:
 <br> 
 ```sql
 SELECT COUNT(DISTINCT mql_id) AS qualified_leads FROM leads_closed WHERE won_date IS NOT NULL;
@@ -70,7 +70,7 @@ SELECT COUNT(DISTINCT mql_id) AS qualified_leads FROM leads_closed WHERE won_dat
     </div>
 
 <br>
--- Сделавшие заказы  
+-- Сделавшие заказы:  
 <br>
 ```sql
 SELECT COUNT(DISTINCT o.customer_id) AS buyers
@@ -85,7 +85,7 @@ WHERE lc.won_date IS NOT NULL;
     </div>
 
 <br>
--- Оплата заказов  
+-- Оплата заказов:  
 <br>
 ```sql
 SELECT COUNT(DISTINCT o.customer_id) AS paying_customers
@@ -104,7 +104,7 @@ WHERE lc.won_date IS NOT NULL;
 <br>
 ### 2. Клиентская аналитика
 <br>
--- Уникальные покупатели
+-- Уникальные покупатели:
 <br>
 ```sql
 SELECT COUNT(DISTINCT customer_id) FROM orders;
@@ -113,7 +113,7 @@ SELECT COUNT(DISTINCT customer_id) FROM orders;
       <img src="{{ site.baseurl }}/assets/images/case6_step5.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 <br>
--- Повторные заказы
+-- Повторные заказы:
 <br>
 ```sql
 SELECT customer_id, COUNT(order_id) AS order_count
@@ -121,12 +121,12 @@ FROM orders
 GROUP BY customer_id
 HAVING COUNT(order_id) > 1;
 ```
-Повторных заказов нет:
+Повторных заказов нет.
 <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case6_step6.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 <br>
--- Средний чек
+-- Средний чек:
 <br>
 ```sql
 SELECT AVG(payment_value) AS avg_order_value FROM order_payments;
@@ -136,7 +136,7 @@ SELECT AVG(payment_value) AS avg_order_value FROM order_payments;
       <img src="{{ site.baseurl }}/assets/images/case6_step7.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 <br>
--- LTV по клиентам
+-- LTV по клиентам:
 <br>
 ```sql
 SELECT customer_id, SUM(payment_value) AS ltv
@@ -151,7 +151,7 @@ GROUP BY customer_id;
 <br>
 ### 3. Анализ заказов
 <br>
--- Заказы по месяцам
+-- Заказы по месяцам:
 <br>
 ```sql
 SELECT strftime('%Y-%m', order_purchase_timestamp) AS month, COUNT(*) AS order_count
@@ -162,7 +162,7 @@ GROUP BY month;
       <img src="{{ site.baseurl }}/assets/images/case6_step9.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 <br>
--- Оплаты по типам
+-- Оплаты по типам:
 <br>
 ```sql
 SELECT payment_type, COUNT(*) AS payment_count
@@ -174,7 +174,7 @@ GROUP BY payment_type;
       <img src="{{ site.baseurl }}/assets/images/case6_step10.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 <br>
--- Популярные категории
+-- Популярные категории:
 <br>
 ```sql
 SELECT pct.product_category_name_english, COUNT(*) AS orders_count
@@ -193,7 +193,7 @@ LIMIT 10;
 <br>
 ### 4. Анализ продавцов
 <br>
--- Количество продавцов
+-- Количество продавцов:
 <br>
 ```sql
 SELECT COUNT(DISTINCT seller_id) FROM sellers;
@@ -203,7 +203,7 @@ SELECT COUNT(DISTINCT seller_id) FROM sellers;
       <img src="{{ site.baseurl }}/assets/images/case6_step12.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 <br>
--- Выручка по продавцам
+-- Выручка по продавцам:
 <br>
 ```sql
 SELECT oi.seller_id, SUM(op.payment_value) AS revenue
@@ -221,7 +221,7 @@ LIMIT 10;
 <br>
 ### 5. Отзывы и рейтинг
 <br>
--- Средний рейтинг
+-- Средний рейтинг:
 <br>
 ```sql
 SELECT AVG(review_score) AS avg_score FROM order_reviews;
@@ -230,7 +230,7 @@ SELECT AVG(review_score) AS avg_score FROM order_reviews;
       <img src="{{ site.baseurl }}/assets/images/case6_step14.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 <br>
--- Средний рейтинг по категориям
+-- Средний рейтинг по категориям:
 <br>
 ```sql
 SELECT pct.product_category_name_english, AVG(orw.review_score) AS avg_score
@@ -249,7 +249,7 @@ LIMIT 10;
     </div>
 <br>
 <br>
-### 📝 Выводы
+### 📝 Выводы:
 - Потери происходят на каждом этапе воронки, особенно между лидом и заказом.
 
 - Повторные заказы совершают около 15% клиентов.
