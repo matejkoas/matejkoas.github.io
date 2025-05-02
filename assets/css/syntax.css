@@ -1,0 +1,18 @@
+/* syntax.css — простая подсветка кода */
+code, pre {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    background-color: #f6f8fa;
+    color: #24292e;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: auto;
+    padding: 0.5em;
+    border-radius: 5px;
+  }
+  
+  /* Цвета для синтаксиса */
+  .highlight .k { color: #d73a49; }      /* keywords */
+  .highlight .s { color: #032f62; }      /* strings */
+  .highlight .n { color: #005cc5; }      /* names */
+  .highlight .o { color: #d73a49; }      /* operators */
+  .highlight .c { color: #6a737d; }      /* comments */
