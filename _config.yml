@@ -29,3 +29,9 @@ markdown: kramdown  # Использование kramdown для рендери�
 # Персонализированные переменные
 author: "Matejkoas"
 email: "matejkoas@gmail.com"
+
+# Подсветка
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge

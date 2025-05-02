@@ -34,7 +34,7 @@ tags: [SQL, Power BI, аналитика, e-commerce, кейс]
 ### 1. Подключение БД к Power BI с помощью Python-скрипта.
 
 {% highlight python %}
-# твой Python-код здесь
+
 import sqlite3
 import pandas as pd
 
