@@ -15,7 +15,7 @@ title: Аналитика данных - сайт портфолио
     </a>
   </div>
 
-  <!-- <div class="case-card">
+  <div class="case-card">
     <a href="/portfolio/cases/case6_sql">
       <img src="assets\images\case6_title.png" alt="sql кейс">
       <hr class="my-4" style="border: 1px solid #005FA3;">
@@ -23,7 +23,7 @@ title: Аналитика данных - сайт портфолио
     <p><strong>Стек:</strong> SQL, DBeaver</p>
     <p>Исследование поведения клиентов. Построение воронки продаж.</p>
     </a>
-  </div> -->
+  </div>
 
   <div class="case-card">
     <a href="/portfolio/cases/sports-goods">
