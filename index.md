@@ -40,7 +40,7 @@ description: Портфолио аналитика данных. Проекты 
   <a href="/cases/sberauto">
     <img src="assets/images/sber_title.png" alt="Python Проект">
     <hr class="my-4" style="border: 1px solid #005FA3;">
-    <h3>Очистка и анализ данных веб-сайта</h3>
+    <h3>Очистка и анализ данных веб-сайта. Подготовка данных к моделированию</h3>
     <p><strong>Стек:</strong> Python, Jupyter Notebook, Pandas, seaborn, matplotlib, scipy</p>
     <p>Работа с выгруженными данными из Google Analytics. Разведывательный анализ данных, заполнение пропусков, очистка. Анализ данных: проверка гипотез, ответы на вопросы продуктовой команды.</p>
   </a>
