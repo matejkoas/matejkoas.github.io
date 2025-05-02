@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://matejkoas.github.io/</loc>
+	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://matejkoas.github.io/about</loc>
+	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://matejkoas.github.io/contacts</loc>
+	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://matejkoas.github.io/cases/bi_case</loc>
+	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://matejkoas.github.io/cases/case6_sql</loc>
+	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://matejkoas.github.io/cases/sports-goods</loc>
+	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://matejkoas.github.io/cases/sberauto</loc>
+	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://matejkoas.github.io/cases/sql_marketing</loc>
+	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://matejkoas.github.io/cases/python_reviews</loc>
+	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+</urlset>
