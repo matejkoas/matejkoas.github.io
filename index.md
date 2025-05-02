@@ -16,6 +16,16 @@ title: Аналитика данных - сайт портфолио
   </div>
 
   <div class="case-card">
+    <a href="/portfolio/cases/case6_sql">
+      <img src="assets\images\case6_diagramm.png" alt="sql кейс">
+      <hr class="my-4" style="border: 1px solid #005FA3;">
+      <h3>E-commerce SQL Исследование: Поведение клиентов и анализ продаж</h3>
+    <p><strong>Стек:</strong> SQL, DBeaver</p>
+    <p>Исследование поведения клиентов. Построение воронки продаж.</p>
+    </a>
+  </div>
+
+  <div class="case-card">
     <a href="/portfolio/cases/sports-goods">
       <img src="assets/images/sports_clustering3.png" alt="Python Проект">
       <hr class="my-4" style="border: 1px solid #005FA3;">
@@ -54,5 +64,10 @@ title: Аналитика данных - сайт портфолио
     <p>Исследование по выявлению стратегии конкурентов в наборе отзывов при развитии товаров.</p>
     </a>
   </div>
+
+
+
+
+
 
 </div>
