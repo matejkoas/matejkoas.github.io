@@ -55,7 +55,7 @@ SELECT COUNT(*) AS total_leads FROM leads_qualified;
 ```
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step1.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step1.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 
 <br>
@@ -66,7 +66,7 @@ SELECT COUNT(DISTINCT mql_id) AS qualified_leads FROM leads_closed WHERE won_dat
 ```
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step2.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step2.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 
 <br>
@@ -81,7 +81,7 @@ WHERE lc.won_date IS NOT NULL;
 ```
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step3.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step3.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 
 <br>
@@ -97,7 +97,7 @@ WHERE lc.won_date IS NOT NULL;
 ```
 
 <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step4.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step4.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 
 <br>
@@ -110,7 +110,7 @@ WHERE lc.won_date IS NOT NULL;
 SELECT COUNT(DISTINCT customer_id) FROM orders;
 ```
 <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step5.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step5.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 <br>
 -- Повторные заказы:
@@ -123,7 +123,7 @@ HAVING COUNT(order_id) > 1;
 ```
 Повторных заказов нет.
 <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step6.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step6.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 <br>
 -- Средний чек:
@@ -133,7 +133,7 @@ SELECT AVG(payment_value) AS avg_order_value FROM order_payments;
 ```
 
 <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step7.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step7.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 <br>
 -- LTV по клиентам:
@@ -145,7 +145,7 @@ JOIN order_payments op ON o.order_id = op.order_id
 GROUP BY customer_id;
 ```
 <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step8.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step8.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 <br>
 <br>
@@ -159,7 +159,7 @@ FROM orders
 GROUP BY month;
 ```
 <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step9.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step9.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 <br>
 -- Оплаты по типам:
@@ -171,7 +171,7 @@ GROUP BY payment_type;
 ```
 
 <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step10.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step10.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 <br>
 -- Популярные категории:
@@ -187,7 +187,7 @@ ORDER BY orders_count DESC
 LIMIT 10;
 ```
 <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step11.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step11.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 <br>
 <br>
@@ -200,7 +200,7 @@ SELECT COUNT(DISTINCT seller_id) FROM sellers;
 ```
 
 <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step12.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step12.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 <br>
 -- Выручка по продавцам:
@@ -215,7 +215,7 @@ LIMIT 10;
 ```
 
 <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step13.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step13.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 <br>
 <br>
@@ -227,7 +227,7 @@ LIMIT 10;
 SELECT AVG(review_score) AS avg_score FROM order_reviews;
 ```
 <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step14.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step14.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 <br>
 -- Средний рейтинг по категориям:
@@ -245,30 +245,22 @@ ORDER BY avg_score DESC
 LIMIT 10;
 ```
 <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case6_step15.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case6_step15.png" alt="кейсы по Power BI" class="img-fluid w-50">
     </div>
 <br>
 <br>
 ### 📝 Выводы:
 - Потери происходят на каждом этапе воронки, особенно между лидом и заказом.
 
-- Повторные заказы совершают около 15% клиентов.
+- Повторных заказов никто не совершает.
 
 - Средний чек — стабильный и влияет на общий доход.
 
-- Большая часть оплат — картой.
+- Большая часть оплат — кредитной картой.
 
 - Некоторые продавцы дают непропорционально высокую выручку.
 
-- Категории с высоким рейтингом получают больше заказов.
-
-- Рейтинг влияет на возвраты и скорость доставки.
-
-- Пиковый спрос — декабрь.
-
-- Конверсия лидов в оплаты ≈ X% (по расчётам).
-
-- LTV у клиентов с высокой активностью в первые недели — выше.
+- Пиковый спрос: ноябрь - март.
 
 
 
