@@ -61,5 +61,16 @@ conn.close()
       <img src="{{ site.baseurl }}/assets/images/case7_1.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 
+### 2. Создание мер.
+<br>
+--- Количество лидов
+
+leads_qualified - таблица, содержащая лиды верхнего уровня воронки с указанием источника трафика.
+Мера, считающая количество входяших лидов:
+
+```sql
+Leads = COUNTROWS(leads_qualified)
+```
+
 
 
