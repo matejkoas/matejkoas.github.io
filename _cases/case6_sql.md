@@ -47,7 +47,7 @@ ER-диаграмма создана в DBeaver:
 → qualified  
 → заказ  
 → оплата
-
+<br>
 
 -- Всего лидов  
 ```sql
@@ -58,8 +58,9 @@ SELECT COUNT(*) AS total_leads FROM leads_qualified;
       <img src="{{ site.baseurl }}/assets/images/case6_step1.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 
-
--- Квалифицированные лиды  
+<br>
+-- Квалифицированные лиды 
+<br> 
 ```sql
 SELECT COUNT(DISTINCT mql_id) AS qualified_leads FROM leads_closed WHERE won_date IS NOT NULL;
 ```
@@ -68,7 +69,9 @@ SELECT COUNT(DISTINCT mql_id) AS qualified_leads FROM leads_closed WHERE won_dat
       <img src="{{ site.baseurl }}/assets/images/case6_step2.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 
+<br>
 -- Сделавшие заказы  
+<br>
 ```sql
 SELECT COUNT(DISTINCT o.customer_id) AS buyers
 FROM leads_closed lc
@@ -81,8 +84,9 @@ WHERE lc.won_date IS NOT NULL;
       <img src="{{ site.baseurl }}/assets/images/case6_step3.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 
-
+<br>
 -- Оплата заказов  
+<br>
 ```sql
 SELECT COUNT(DISTINCT o.customer_id) AS paying_customers
 FROM leads_closed lc
@@ -96,17 +100,21 @@ WHERE lc.won_date IS NOT NULL;
       <img src="{{ site.baseurl }}/assets/images/case6_step4.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
 
+<br>
+<br>
 ### 2. Клиентская аналитика
-
+<br>
 -- Уникальные покупатели
+<br>
 ```sql
 SELECT COUNT(DISTINCT customer_id) FROM orders;
 ```
 <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case6_step5.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
-
+<br>
 -- Повторные заказы
+<br>
 ```sql
 SELECT customer_id, COUNT(order_id) AS order_count
 FROM orders
@@ -117,8 +125,9 @@ HAVING COUNT(order_id) > 1;
 <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case6_step6.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
-
+<br>
 -- Средний чек
+<br>
 ```sql
 SELECT AVG(payment_value) AS avg_order_value FROM order_payments;
 ```
@@ -126,8 +135,9 @@ SELECT AVG(payment_value) AS avg_order_value FROM order_payments;
 <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case6_step7.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
-
+<br>
 -- LTV по клиентам
+<br>
 ```sql
 SELECT customer_id, SUM(payment_value) AS ltv
 FROM orders o
@@ -137,9 +147,12 @@ GROUP BY customer_id;
 <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case6_step8.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
-
+<br>
+<br>
 ### 3. Анализ заказов
+<br>
 -- Заказы по месяцам
+<br>
 ```sql
 SELECT strftime('%Y-%m', order_purchase_timestamp) AS month, COUNT(*) AS order_count
 FROM orders
@@ -148,8 +161,9 @@ GROUP BY month;
 <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case6_step9.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
-
+<br>
 -- Оплаты по типам
+<br>
 ```sql
 SELECT payment_type, COUNT(*) AS payment_count
 FROM order_payments
@@ -159,8 +173,9 @@ GROUP BY payment_type;
 <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case6_step10.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
-
+<br>
 -- Популярные категории
+<br>
 ```sql
 SELECT pct.product_category_name_english, COUNT(*) AS orders_count
 FROM order_items oi
@@ -174,10 +189,12 @@ LIMIT 10;
 <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case6_step11.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
-
+<br>
+<br>
 ### 4. Анализ продавцов
-
+<br>
 -- Количество продавцов
+<br>
 ```sql
 SELECT COUNT(DISTINCT seller_id) FROM sellers;
 ```
@@ -185,8 +202,9 @@ SELECT COUNT(DISTINCT seller_id) FROM sellers;
 <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case6_step12.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
-
+<br>
 -- Выручка по продавцам
+<br>
 ```sql
 SELECT oi.seller_id, SUM(op.payment_value) AS revenue
 FROM order_items oi
@@ -199,17 +217,21 @@ LIMIT 10;
 <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case6_step13.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
-
+<br>
+<br>
 ### 5. Отзывы и рейтинг
+<br>
 -- Средний рейтинг
+<br>
 ```sql
 SELECT AVG(review_score) AS avg_score FROM order_reviews;
 ```
 <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case6_step14.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
-
+<br>
 -- Средний рейтинг по категориям
+<br>
 ```sql
 SELECT pct.product_category_name_english, AVG(orw.review_score) AS avg_score
 FROM order_reviews orw
@@ -225,7 +247,8 @@ LIMIT 10;
 <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case6_step15.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
-
+<br>
+<br>
 ### 📝 Выводы
 - Потери происходят на каждом этапе воронки, особенно между лидом и заказом.
 
