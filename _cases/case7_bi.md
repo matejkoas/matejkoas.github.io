@@ -55,4 +55,11 @@ products = pd.read_sql_query("SELECT * FROM products", conn)
 conn.close()
 ```
 
+После импортирования таблиц в Power BI связи между таблицами расставились автоматически, но после проверки частично были откорректированы - заменен тип связи кое-где вместо "1 к 1" - "1 ко многим".
+
+   <div class="case-image">
+      <img src="{{ site.baseurl }}/assets/images/case7-1.png" alt="кейсы по Power BI" class="img-fluid w-50">
+    </div>
+
+
 
