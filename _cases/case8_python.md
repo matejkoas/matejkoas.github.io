@@ -117,7 +117,7 @@ plt.show()
 ```
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case8_2.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case8_2.png" alt="кейсы по Power BI" class="img-fluid w-75">
     </div>
 <br>
 
@@ -134,7 +134,7 @@ plt.show()
 ```
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case8_3.png" alt="кейсы по Power BI" class="img-fluid">
+      <img src="{{ site.baseurl }}/assets/images/case8_3.png" alt="кейсы по Power BI" class="img-fluid w-75">
     </div>
 <br>
 ➡ Количество промо-товаров также существенно варьируется. Возможно, это связано с продажами.
@@ -184,7 +184,7 @@ plt.show()
 <br>
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case8_4.png" alt="кейсы по Power BI" class="img-fluid w-75">
+      <img src="{{ site.baseurl }}/assets/images/case8_5.png" alt="кейсы по Power BI" class="img-fluid w-75">
     </div>
 <br>
 📌 Визуально можно выделить 4 ценовые зоны:
@@ -242,7 +242,7 @@ test_merge = oil_features(test_merge)
 train_merge.isna().sum()
 ```
    <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case8_6.png" alt="кейсы по Power BI" class="img-fluid w-75">
+      <img src="{{ site.baseurl }}/assets/images/case8_6.png" alt="кейсы по Power BI" class="img-fluid w-25">
     </div>
 
 ➡ Пропуски только в новых дельтах — они появляются, потому что нет предыдущих значений в начале временного ряда. Заполним их нулями:
@@ -264,7 +264,7 @@ train_merge.isna().sum()
 ```
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case8_7.png" alt="кейсы по Power BI" class="img-fluid w-75">
+      <img src="{{ site.baseurl }}/assets/images/case8_7.png" alt="кейсы по Power BI" class="img-fluid w-25">
     </div>
 
 ✅ Пропуски устранены. Новые признаки готовы к использованию в модели.
