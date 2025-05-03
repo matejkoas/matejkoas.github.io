@@ -26,6 +26,16 @@ description: Портфолио аналитика данных. Проекты 
     </a>
   </div>
 
+   <div class="case-card">
+    <a href="/cases/case8_python">
+      <img src="assets\images\case8_title.png" alt="sql кейс">
+      <hr class="my-4" style="border: 1px solid #005FA3;">
+      <h3>Модель спроса: влияние макрофакторов и праздников на продажи</h3>
+    <p><strong>Стек:</strong> Python, Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow</p>
+    <p>Прогнозирование продаж с учетом макроэкономических факторов и влияния праздников на спрос.</p>
+    </a>
+  </div>
+
   <div class="case-card">
     <a href="/cases/sports-goods">
       <img src="assets/images/sports_clustering3.png" alt="Python Проект">
