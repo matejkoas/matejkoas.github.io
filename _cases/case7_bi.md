@@ -4,6 +4,7 @@ title: "BI-исследование ecommerse проекта"
 date: 2025-05-02
 categories: [portfolio, SQL, powerbi]
 tags: [SQL, Power BI, аналитика, e-commerce, кейс]
+noindex: true
 ---
 
 ## 📋 Техническое задание
@@ -19,14 +20,14 @@ tags: [SQL, Power BI, аналитика, e-commerce, кейс]
 База содержит следующие таблицы:
 
 - `customers`
-- `leads_qualified`
-- `leads_closed`
+- `leads_qualified` (лиды верхнего уровня воронки, подтвержденные и неподтвержденные)
+- `leads_closed` (подтвержденные лиды)
 - `orders`
 - `order_items`
 - `order_payments`
 - `order_reviews`
 - `products`
-- `product_category_name_translations`
+- `product_category_name_translations` 
 - `sellers`
 
 ## 📊 Аналитика по шагам
@@ -71,6 +72,31 @@ leads_qualified - таблица, содержащая лиды верхнего
 ```sql
 Leads = COUNTROWS(leads_qualified)
 ```
+<br>
+--- Количество заказов
+```sql
+Count of orders = COUNT(orders[order_id])
+```
+<br>
+--- Конверсия из лида в подтвержденный лид
+```sql
+CR_to_won_Leads = DIVIDE(COUNTROWS(leads_qualified), COUNTROWS(leads_closed), 0) 
+```
+<br>
+--- Конверсия из подтвержденного лида в заказ
+```sql
+CR_wonlead_to_order = DIVIDE(COUNTROWS(leads_closed), COUNTROWS(orders), 0)
+```
+<br>
+--- Конверсия из неподтвержденного лида в заказ
+```sql
+CR_lead_to_order = DIVIDE(COUNTROWS(orders), COUNTROWS(leads_qualified), 0)
+```
+
+
+
+
+
 
 
 

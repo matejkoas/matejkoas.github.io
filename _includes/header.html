@@ -24,6 +24,9 @@
   <meta property="og:image" content="{{ site.baseurl }}\assets\images\logo.jpg" />
   <meta property="og:url" content="https://matejkoas.github.io/" />
   <meta name="twitter:card" content="summary_large_image" />
+  {% if page.noindex %}
+  <meta name="robots" content="noindex, nofollow">
+  {% endif %}
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
