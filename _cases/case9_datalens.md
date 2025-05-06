@@ -8,7 +8,7 @@ description: Примеры дашбордов в DataLens
 
 ## Дашборд по рекламе Яндекс.Директ - эффективность разделов
 
-<a href="https://datalens.yandex.cloud/aez9awcksj96x?state=d99f4d47530&_no_controls=1">
+<a href="https://datalens.yandex.cloud/aez9awcksj96x?state=d99f4d47530&_no_controls=1" target="_blank">
           Перейти к дашборду</a>
 <br>
 Отслеживание эффективности разделов сайта по рекламе. Заказчику требовалось понимать, насколько хорошо продаются его двери по разделам. Как нужно перераспределять бюджет. Под данную задачу был составлен дашборд. 
@@ -27,7 +27,7 @@ description: Примеры дашбордов в DataLens
 
 ## Дашборд мониторинга эффективности аудиторий
 
-<a href="https://datalens.yandex.cloud/aez9awcksj96x">
+<a href="https://datalens.yandex.cloud/aez9awcksj96x" target="_blank">
           Перейти к дашборду</a>
 <br>
 <br>
@@ -39,7 +39,7 @@ description: Примеры дашбордов в DataLens
 
 ## Рейтинг ключей в маркетлейсах
 
-<a href="https://datalens.yandex.cloud/788k5tif5tngu?_no_controls=1">
+<a href="https://datalens.yandex.cloud/788k5tif5tngu?_no_controls=1" target="_blank">
           Перейти к дашборду</a>
 <br>
 
@@ -53,7 +53,7 @@ description: Примеры дашбордов в DataLens
 <br>
 
 ## Мониторинг Интернет соединения
-<a href="https://datalens.yandex.cloud/4mtbyn513gc2r" >
+<a href="https://datalens.yandex.cloud/4mtbyn513gc2r" target="_blank">
           Перейти к дашборду</a>
 
 Интернет соединение было неустойчивым, а провайдер со своей стороны говорил, что у него все в порядке, как он наблюдает - сигнал не прерывается. Да, да - в Сербии такое бывает. Но перебои то и дело возникали. Сначала на 1-2 секунды с периодичностью 5-10 минут. Затем все чаще. И интервалы сбоев были все длиннее. 
