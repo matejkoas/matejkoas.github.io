@@ -56,6 +56,16 @@ description: Портфолио аналитика данных. Проекты 
   </a>
   </div>
 
+  <div class="case-card">
+    <a href="/cases/case9_datalens">
+      <img src="assets/images/case9_title.png" alt="sql кейс">
+      <hr class="my-4" style="border: 1px solid #005FA3;">
+      <h3>Примеры дашбордов в Yandex DataLens</h3>
+    <p><strong>Стек:</strong> DataLens</p>
+    <p>Построение дашбордов в BI платформе DataLens.</p>
+    </a>
+  </div>
+
    <div class="case-card">
     <a href="/cases/sql_marketing">
       <img src="assets/images/sql_title.png" alt="sql кейс">
