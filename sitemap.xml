@@ -3,47 +3,57 @@
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://matejkoas.github.io/</loc>
-	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://matejkoas.github.io/about</loc>
-	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://matejkoas.github.io/contacts</loc>
-	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://matejkoas.github.io/cases/bi_case</loc>
-	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://matejkoas.github.io/cases/case6_sql</loc>
-	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://matejkoas.github.io/cases/case8_python</loc>
+	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://matejkoas.github.io/cases/sports-goods</loc>
-	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://matejkoas.github.io/cases/sberauto</loc>
-	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://matejkoas.github.io/cases/case9_datalens</loc>
+	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://matejkoas.github.io/cases/sql_marketing</loc>
-	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://matejkoas.github.io/cases/python_reviews</loc>
-	<lastmod>2025-05-02T19:42:17+01:00</lastmod>
+	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 </urlset>
