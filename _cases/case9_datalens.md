@@ -7,8 +7,10 @@ description: Примеры дашбордов в DataLens
 ---
 
 ## Дашборд по рекламе Яндекс.Директ - эффективность разделов
-https://datalens.yandex.cloud/aez9awcksj96x?state=d99f4d47530&_no_controls=1
 
+<a href="https://datalens.yandex.cloud/aez9awcksj96x?state=d99f4d47530&_no_controls=1" class="navbar-brand d-flex align-items-center">
+          Перейти к дашборду</a>
+<br>
 Отслеживание эффективности разделов сайта по рекламе. Заказчику требовалось понимать, насколько хорошо продаются его двери по разделам. Как нужно перераспределять бюджет. Под данную задачу был составлен дашборд. 
 
    <div class="case-image">
@@ -24,7 +26,9 @@ https://datalens.yandex.cloud/aez9awcksj96x?state=d99f4d47530&_no_controls=1
 
 
 ## Дашборд мониторинга эффективности аудиторий
-https://datalens.yandex.cloud/aez9awcksj96x
+
+<a href="https://datalens.yandex.cloud/aez9awcksj96x" class="navbar-brand d-flex align-items-center">
+          Перейти к дашборду</a>
 <br>
 <br>
 Для того, чтобы понимать какая аудитория приходит на сайт, и в связи с этим делать правки, был составлен дашборд, где можно сразу в одном месте видеть общую картину по аудиториям. 
@@ -34,7 +38,9 @@ https://datalens.yandex.cloud/aez9awcksj96x
 
 
 ## Рейтинг ключей в маркетлейсах
-https://datalens.yandex.cloud/788k5tif5tngu?_no_controls=1
+
+<a href="https://datalens.yandex.cloud/788k5tif5tngu?_no_controls=1" class="navbar-brand d-flex align-items-center">
+          Перейти к дашборду</a>
 <br>
 
 Отслеживание эффективности по рейтингу главных ключевых запросов и выявление нашего места среди конкурентов. Данная метрика была сделана для отслеживания динамики продвижения нашего бренда среди остальных продавцов на маркетелейсе Wildberries в разделе "Красота". Отслеживался рейтинг карточек товаров конкурентов, и относительно них определялась позиция наших товаров. Отчет содержал несколько фильтраций и условий. Например нужно было выбрать только тех конкурентов, у которых выручка за месяц была не ниже чем 500 000 руб. И количество отзывов не менее 200. И так далее. 
@@ -43,10 +49,12 @@ https://datalens.yandex.cloud/788k5tif5tngu?_no_controls=1
    <div class="case-image">
       <img src="{{ site.baseurl }}/assets/images/case9_3.png" alt="кейсы по Power BI" class="img-fluid">
     </div>
-
+<br>
+<br>
 
 ## Мониторинг Интернет соединения
-https://datalens.yandex.cloud/4mtbyn513gc2r
+<a href="https://datalens.yandex.cloud/4mtbyn513gc2r" class="navbar-brand d-flex align-items-center">
+          Перейти к дашборду</a>
 
 Интернет соединение было неустойчивым, а провайдер со своей стороны говорил, что у него все в порядке, как он наблюдает - сигнал не прерывается. Да, да - в Сербии такое бывает. Но перебои то и дело возникали. Сначала на 1-2 секунды с периодичностью 5-10 минут. Затем все чаще. И интервалы сбоев были все длиннее. 
 
