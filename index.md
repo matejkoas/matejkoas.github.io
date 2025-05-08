@@ -86,6 +86,16 @@ description: Портфолио аналитика данных. Проекты 
     </a>
   </div>
 
+  <div class="case-card">
+    <a href="/cases/case10-numeroligy-and-data-analytics">
+      <img src="assets/images/case10_title.png" alt="sql кейс">
+      <hr class="my-4" style="border: 1px solid #005FA3;">
+      <h3>Графики не лгут. А вот даты рождения - возможно. Нумерология под прицелом Data-аналитики</h3>
+    <p><strong>Стек:</strong> python, matplotlib, pandas, numpy, scipy.stats</p>
+    <p>Тестируем нумерологию на миллионной выборке: статистика против эзотерики. Научный подход к магическим числам — без предвзятости.</p>
+    </a>
+  </div>
+
 
 
 
