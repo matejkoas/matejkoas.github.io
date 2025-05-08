@@ -21,7 +21,7 @@ description: Портфолио аналитика данных. Проекты 
       <img src="assets\images\case6_title.png" alt="sql кейс">
       <hr class="my-4" style="border: 1px solid #005FA3;">
       <h3>E-commerce SQL Исследование: Поведение клиентов и анализ продаж</h3>
-    <p><strong>Стек:</strong> SQL, DBeaver</p>
+    <p><strong>Стек:</strong> SQL, SQLite, DBeaver</p>
     <p>Исследование поведения клиентов. Построение воронки продаж.</p>
     </a>
   </div>
