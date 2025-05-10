@@ -5,6 +5,8 @@ date: 2023-02-20
 categories: python
 ---
 
+# Комплексное исследование продаж. Кейс по Data-Analyse
+
 #### Стек:
 - Jupyter Notebook
 - Python

@@ -5,6 +5,7 @@ date: 2025-03-11
 categories: [SQL, Analytics, Retail]
 description: Примеры дашбордов в DataLens
 ---
+# Примеры дашбордов в Yandex.DataLens
 
 ## Дашборд по рекламе Яндекс.Директ - эффективность разделов
 
