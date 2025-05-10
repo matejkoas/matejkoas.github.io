@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Контакты
+title: Связаться с аналитиком данных — Telegram, GitHub, Email
+description: Напишите мне для обсуждения проектов, сотрудничества или фидбэка. Контакты и ссылки на соцсети и GitHub — всё тут.
 ---
 
 <div class="container mt-4">
