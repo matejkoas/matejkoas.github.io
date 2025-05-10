@@ -118,3 +118,7 @@ code {
   cursor: pointer;
   border-radius: 5px;
 }
+
+pre code {
+  line-height: 1.7;
+}
