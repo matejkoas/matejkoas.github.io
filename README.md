@@ -19,7 +19,7 @@
 ## 🔗 Сайт
 
 Сайт доступен по адресу:  
-👉 [https://yourusername.github.io](https://matejkoas.github.io/)
+👉 [https://matejkoas.github.io/](https://matejkoas.github.io/)
 
 ## 📬 Контакты
 
