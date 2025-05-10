@@ -10,7 +10,7 @@ description: >
 
 # Анализ динамики продаж в маркетплейсе Wildberries
 
-#### Стек:
+**Стек:**
 - python
 - pandas
 - seaborn

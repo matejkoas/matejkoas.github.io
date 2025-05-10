@@ -2,11 +2,18 @@
 layout: case
 title: "Кейс по Data Analyst: Продажи в сети супермаркетов. Анализ зависимостей от макрофакторов."
 date: 2023-05-11
-categories: [SQL, Analytics, Retail]
+categories: [Python, Analytics, Retail]
 description: >
   Анализ факторов, влияющих на продажи в магазинах Corporación Favorita — крупной розничной сети в Эквадоре. Работа с временными рядами, промо-акциями, праздниками и макрофакторами.
 ---
 # Как внешние факторы могут повлиять на продажи в сети супермаркетов. Кейс Data Analyse
+
+**Стек:**
+
+- Python
+- pandas
+- matplotlib
+- sklearn
 
 ## Описание проекта
 

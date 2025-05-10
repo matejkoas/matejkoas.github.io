@@ -7,6 +7,9 @@ description: Примеры дашбордов в DataLens
 ---
 # Примеры дашбордов в Yandex.DataLens
 
+**Стек:**
+- DataLens
+
 ## Дашборд по рекламе Яндекс.Директ - эффективность разделов
 
 <a href="https://datalens.yandex.cloud/aez9awcksj96x?state=d99f4d47530&_no_controls=1" target="_blank">

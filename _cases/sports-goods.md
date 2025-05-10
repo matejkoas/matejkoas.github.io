@@ -7,7 +7,8 @@ categories: python
 
 # Комплексное исследование продаж. Кейс по Data-Analyse
 
-#### Стек:
+**Стек:** 
+
 - Jupyter Notebook
 - Python
 - Pandas

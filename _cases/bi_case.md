@@ -7,7 +7,7 @@ categories: power bi
 # Аналитика Power BI. Анализ эффективности рекламы Яндекс.Директ
 
 
-#### Стек:
+**Стек:**
 - BI
 - Python
 - DAX
@@ -64,7 +64,7 @@ categories: power bi
   </div>
 
 
-<h2>Основные шаги проекта</h2>
+## Основные шаги проекта
 <div class="case-content">
   <strong>1. Сбор и подготовка данных</strong>
 <br>
