@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Портфолио аналитика данных — проекты на Python, SQL и Power BI
-description: Портфолио аналитика данных. Проекты на Python, SQL и Power BI. Визуализация, дашборды и автоматизация для e-commerce и маркетинга.
+title: Aleksandr Mateiko | Analytics Engineer
+description: Portfolio of Aleksandr Mateiko, Analytics Engineer specializing in ETL pipelines, API integrations, business intelligence, and data automation. Explore real-world case studies in analytics engineering and system design.
 ---
 
 <div class="hero-section">
@@ -164,15 +164,6 @@ description: Портфолио аналитика данных. Проекты 
   </div>
 
 
-  <div class="case-card">
-    <a href="/cases/case9_datalens">
-      <img src="assets/images/case9_title.png" alt="sql кейс">
-      <hr class="my-4" style="border: 1px solid #005FA3;">
-      <h3>Примеры дашбордов в Yandex DataLens</h3>
-    <p><strong>Стек:</strong> DataLens</p>
-    <p>Построение дашбордов в BI платформе DataLens.</p>
-    </a>
-  </div>
 
    <div class="case-card">
     <a href="/cases/sql_marketing">
