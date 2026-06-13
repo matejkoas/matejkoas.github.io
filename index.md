@@ -30,17 +30,17 @@ description: Portfolio of Aleksandr Mateiko, Analytics Engineer specializing in 
   </div>
 
   <div class="hero-links">
-    <a href="https://www.linkedin.com/in/YOUR_PROFILE/" target="_blank">
+    <a href="https://www.linkedin.com/in/aleksandr-mateiko-54b220293/" target="_blank">
       LinkedIn
     </a>
 
-    <a href="https://github.com/matejkoas" target="_blank">
-      GitHub
-    </a>
+  <a href="https://github.com/matejkoas" target="_blank">
+    GitHub
+  </a>
 
-    <a href="/assets/files/Aleksandr_Mateiko_Resume.pdf" target="_blank">
-      Resume
-    </a>
+  <a href="/assets/files/Aleksandr_Mateiko_Resume.pdf" target="_blank">
+    Resume
+  </a>
   </div>
 
 </div>
@@ -49,7 +49,20 @@ description: Portfolio of Aleksandr Mateiko, Analytics Engineer specializing in 
   <h2>Featured Projects</h2>
     <p class="section-description"> Selected projects demonstrating my experience in analytics engineering, ETL development, API integrations and business intelligence systems. 
     </p>
-     <!-- Future project cards will be placed here --> 
+
+  <!--Eliminating Operational Bottlenecks Through Automated Campaign Control -->
+<div class="case-card">
+<a href="/cases/case12-eliminating-operational-bottlenecks">
+  <img src="assets/images/bi_img.png" alt="Eliminating Operational Bottlenecks Through Automated Campaign Control">
+  <hr class="my-4" style="border: 1px solid #005FA3;">
+  <h3>Eliminating Operational Bottlenecks Through Automated Campaign Control </h3>
+  <p><strong>Technologies:</strong> Power BI, DAX, М, Python</p>
+  <p>Нахождение точек роста в рекламе Яндекс.Директ по продаже межкомнатных дверей на основе анализа данных за длительный период работы.</p>
+</a>
+</div>
+
+
+
 </section>
 
 
