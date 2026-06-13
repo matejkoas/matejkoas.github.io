@@ -53,7 +53,7 @@ description: Portfolio of Aleksandr Mateiko, Analytics Engineer specializing in 
   <!--Eliminating Operational Bottlenecks Through Automated Campaign Control -->
 <div class="case-card">
 <a href="/cases/case12-eliminating-operational-bottlenecks">
-  <img src="assets/images/bi_img.png" alt="Eliminating Operational Bottlenecks Through Automated Campaign Control">
+  <img src="assets/images/case12-prev.png" alt="Eliminating Operational Bottlenecks Through Automated Campaign Control">
   <hr class="my-4" style="border: 1px solid #005FA3;">
   <h3>Eliminating Operational Bottlenecks Through Automated Campaign Control </h3>
   <p><strong>Technologies:</strong> Power BI, DAX, М, Python</p>
