@@ -54,7 +54,7 @@ The challenge was not limited to scheduled reporting activities. Although formal
 This created a situation where the team spent a substantial portion of its time on repetitive operational tasks rather than analytical and optimization activities. As campaign volume increased, so did the probability of human error, delayed reactions, and inefficient resource allocation. The process became increasingly dependent on continuous human oversight.
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case12-1.png" alt="Identifying the Bottleneck" class="img-fluid w-75">
+      <img src="{{ site.baseurl }}/assets/images/case12-1.png" alt="Identifying the Bottleneck" class="img-fluid w-50">
     </div>
 
 During my onboarding period, I intentionally immersed myself in the existing workflow by following the same written and video instructions used by the rest of the team. By performing every step manually, I gained a detailed understanding of the operational process and experienced firsthand the limitations imposed by the current approach.
@@ -200,7 +200,7 @@ Beyond quantitative improvements, the solution introduced a more scalable operat
 The project demonstrated that relatively simple automation principles, when applied to well-understood operational constraints, can produce substantial business impact. Rather than optimizing isolated tasks, the solution addressed the underlying process bottleneck, enabling sustainable scaling of campaign operations.
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case12-4.png" alt="Identifying the Bottleneck" class="img-fluid w-75">
+      <img src="{{ site.baseurl }}/assets/images/case12-4.png" alt="Identifying the Bottleneck" class="img-fluid w-100">
     </div>
 
 ## Future Improvements and Lessons Learned
