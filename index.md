@@ -38,7 +38,7 @@ description: Portfolio of Aleksandr Mateiko, Analytics Engineer specializing in 
     GitHub
   </a>
 
-  <a href="/assets/files/Aleksandr_Mateiko_Resume.pdf" target="_blank">
+  <a href="/assets/files/resume.pdf" target="_blank">
     Resume
   </a>
   </div>
