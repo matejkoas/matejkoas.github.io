@@ -172,7 +172,7 @@ These observations reinforced an important engineering principle: in distributed
 ## Results and Business Impact
 
    <div class="case-image">
-      <img src="{{ site.baseurl }}/assets/images/case12-3.png" alt="Identifying the Bottleneck" class="img-fluid w-75">
+      <img src="{{ site.baseurl }}/assets/images/case12-3.png" alt="Identifying the Bottleneck" class="img-fluid w-100">
     </div>
 
 The implementation of the automated monitoring and control system fundamentally changed the way campaign operations were managed. By removing the dependency on continuous manual supervision, the team was able to shift its focus from repetitive operational tasks toward analytical and optimization activities.
