@@ -42,11 +42,6 @@
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://matejkoas.github.io/cases/case9_datalens</loc>
-	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
 	<loc>https://matejkoas.github.io/cases/sql_marketing</loc>
 	<lastmod>2025-05-06T14:02:35+01:00</lastmod>
 	<priority>0.8</priority>
@@ -60,4 +55,5 @@
 	<loc>https://matejkoas.github.io/cases/case12-eliminating-operational-bottlenecks</loc>
 	<lastmod>2026-06-20T15:00:00+01:00</lastmod>
 	<priority>1.0</priority>
+</url>
 </urlset>
