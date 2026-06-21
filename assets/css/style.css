@@ -214,4 +214,14 @@ pre code {
   line-height: 1.6; 
 }
 
+.case-image{
+    margin:2rem 0;
+    text-align:center;
+}
+
+.case-image img{
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
 
