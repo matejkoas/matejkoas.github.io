@@ -49,7 +49,7 @@ A complete redesign of how data was collected, stored, validated, and analyzed.
 
 
 {% include case-image.html
-file="assets\images\case13-1.png"
+file="assets/images/case13-1.png"
 alt="Old reporting architecture"
 width="75"
 %}
