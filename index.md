@@ -56,10 +56,26 @@ description: Portfolio of Aleksandr Mateiko, Analytics Engineer specializing in 
   <img src="assets/images/case12-prev.png" alt="Eliminating Operational Bottlenecks Through Automated Campaign Control">
   <hr class="my-4" style="border: 1px solid #005FA3;">
   <h3>Eliminating Operational Bottlenecks Through Automated Campaign Control </h3>
-  <p><strong>Technologies:</strong> Power BI, DAX, М, Python</p>
-  <p>Нахождение точек роста в рекламе Яндекс.Директ по продаже межкомнатных дверей на основе анализа данных за длительный период работы.</p>
+  <p><strong>Technologies:</strong> Analytics Engineering, Automation, System Design, Python</p>
+  <p>Designed and implemented an automated campaign monitoring system that eliminated manual operational bottlenecks, increased the number of active campaigns from 5–7 to 45–50, expanded platform coverage from 3–4 to 10–12 sources, and reduced manual effort by approximately 80%</p>
 </a>
 </div>
+
+
+
+<!--  -->
+<div class="case-card">
+<a href="_cases/case13-from-spreadsheet-to-dataplatform">
+  <img src="assets/images/case13-preview.png" alt="From Spreadsheets to a Data Platform">
+  <hr class="my-4" style="border: 1px solid #005FA3;">
+  <h3>From Spreadsheets to a Data Platform</h3>
+  <p><strong>Technologies:</strong> Python, MySQL, FastAPI, DataLens, ETL Pipelines, API Integration</p>
+
+  <p>Migrated a growing reporting workflow from Google Sheets to a centralized MySQL-based data platform, built an automated data pipeline, implemented validation and monitoring, and created DataLens dashboards to improve data reliability and operational visibility.</p>
+</a>
+</div>
+
+
 
 
 
