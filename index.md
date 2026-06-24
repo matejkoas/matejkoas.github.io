@@ -63,9 +63,9 @@ description: Portfolio of Aleksandr Mateiko, Analytics Engineer specializing in 
 
 
 
-<!--  -->
+<!-- From Spreadsheets to a Data Platform -->
 <div class="case-card">
-<a href="_cases/case13-from-spreadsheet-to-dataplatform">
+<a href="/cases/case13-from-spreadsheet-to-dataplatform">
   <img src="assets/images/case13-preview.png" alt="From Spreadsheets to a Data Platform">
   <hr class="my-4" style="border: 1px solid #005FA3;">
   <h3>From Spreadsheets to a Data Platform</h3>
