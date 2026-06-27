@@ -50,6 +50,8 @@ description: Portfolio of Aleksandr Mateiko, Analytics Engineer specializing in 
     <p class="section-description"> Selected projects demonstrating my experience in analytics engineering, ETL development, API integrations and business intelligence systems. 
     </p>
 
+  <div class="case-grid">
+
   <!--Eliminating Operational Bottlenecks Through Automated Campaign Control -->
 <div class="case-card">
 <a href="/cases/case12-eliminating-operational-bottlenecks">
@@ -73,6 +75,8 @@ description: Portfolio of Aleksandr Mateiko, Analytics Engineer specializing in 
 
   <p>Migrated a growing reporting workflow from Google Sheets to a centralized MySQL-based data platform, built an automated data pipeline, implemented validation and monitoring, and created DataLens dashboards to improve data reliability and operational visibility.</p>
 </a>
+</div>
+
 </div>
 
 
